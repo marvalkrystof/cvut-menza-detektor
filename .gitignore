@@ -1,0 +1,24 @@
+# Virtual environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local model weights
+*.pt
+
+# Downloaded camera images and generated results
+data/*.jpg
+runs/
+data/processed/
+data/raw/
+
+# Generated video files
+*.mp4
+
+# Local tooling and OS files
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
